@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <style>
+         body
+            {
+              background-repeat:no-repeat;
+              background-attachment:fixed;
+              background-size: 100% 100%;
+              background-image: url({{url_for('static', filename='bg12.png') }})
+            }
+    </style>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='./styles/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='./styles/about.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+</head>
+
+<body onload="document.body.style.opacity='1'">
+    <nav>
+        <a class="menu titl non" href="/"><b>CARDIO-FIT</b></a>
+        <a class="menu non" href="./predict">Prediction</a>
+        <a class="menu non" href="/blog">Blog</a>
+        <a class="menu act abt" href="./about">About Us</a>
+    </nav>
+    <center>
+        <div class="info">
+            <div class="bmonke">
+                <img class="dp" src="{{ url_for('static', filename='./about/sai.jpg') }}">
+                <h1 class="infotext main one">Erakala Sai Teja</h1>
+                <h2 class="infotext sub one goal jey">Data Science Enthusiast</h2>
+                <hr>
+                <h3 class="infotext sub one intro first">I see Data Science as a form of art and my goal is to make
+                    others look at data the way I do through my work.</h3>
+                <hr>
+                <div class="icon jey aiml">
+                    <a title="View sai's Linkedin Profile" class="jey lkdin aiml"
+                        href="https://www.linkedin.com/in/erakala-sai-teja-39b983222/">
+                        <img src="{{ url_for('static', filename='./about/linkedin.png') }}" height="20" width="20">
+                    </a> &emsp;
+                    <a title="View sai's Git repositories" class="jey ghub aiml" href="https://github.com/SaiTeja0501">
+                        <img src="{{ url_for('static', filename='./about/github.png') }}" height="20" width="20">
+                    </a> &emsp;
+                    <a title="Email: saikittu9995@gmail.com" class="jey email aiml"
+                        href="mailto:saikittu9995@gmail.com">
+                        <img src="{{ url_for('static', filename='./about/email.png') }}" height="20" width="23">
+                      </a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </center>
+    <center>
+        <footer id="foot">
+            Made with ❤️ by Erakala Sai Teja
+        </footer>
+    </center>
+</body>
+
+</html>
+
