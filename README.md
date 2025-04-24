@@ -54,8 +54,5 @@ For all the front end nerds out there.
 |![#ebebeb](https://via.placeholder.com/10/ebebeb?text=+) #ebebeb |
 
 
-## 👨‍💻 Contributor
-
-- [Erakala Sai Teja](https://github.com/SaiTeja0501/)
 
   
